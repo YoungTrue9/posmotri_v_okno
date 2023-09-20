@@ -1,4 +1,4 @@
-/* КОНФИГ */
+ /* КОНФИГ */
 const preloaderWaitindTime = 1200;
 const cardsOnPage = 5;
 const BASE_URL = 'https://v-content.practicum-team.ru';

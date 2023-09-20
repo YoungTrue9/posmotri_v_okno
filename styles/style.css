@@ -32,20 +32,25 @@ ol {
 }
 
 .page {
+  height:100%;  
+  display: flex;
+  text-align: left;
   align-items: center;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  inline-size: 1200px;
+  inline-size: 100%;
   block-size: 100%;
 }
 
 .content {
+  height: 534px;
+  justify-content: center;
   display: flex;
+  margin: auto;
   gap: 30px;
-  inline-size: 100%;
 }
 
 .result {
@@ -61,7 +66,7 @@ ol {
 .search-form {
   display: flex;
   align-items: center;
-  color: #ffffffb2;
+  color: #fff;
   gap: 40px;
 }
 
@@ -106,9 +111,9 @@ ol {
 }
 
 .search-form__textfield {
-  border-top: 1px solid #FFF;
+  border-top: 1px solid white;
   border-right: none;
-  border-bottom: 1px solid #FFF;
+  border-bottom: 1px solid white;
   border-left: none;
   padding: 2px 0;
   color: currentColor;
@@ -144,7 +149,9 @@ ol {
 }
 
 .search-form__pseudo-checkbox {
-  display: block;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   border: 1px solid #FFF;
   inline-size: 19px;
   block-size: 19px;
@@ -156,14 +163,14 @@ ol {
   background-color: #FFF;
   inline-size: 15px; /* остаток по пикселю */
   block-size: 15px;/* остаток по пикселю */
-  margin: 1px 0 0 1px;
 }
 
 .button {
+  font-family: 'Fira Sans Condensed', sans-serif;
   border: 1px solid currentColor;
+  color: #FFF;
   cursor: pointer;
   padding: 6px 0;
-  color: #fff;
   font-weight: 700;
   font-size: 18px;
   text-align: center;
@@ -228,7 +235,7 @@ ol {
 
 .content__card-link {
   display: block;
-  margin: 1px; /* при одном пикселе появляется отступ справа как нужно в figma */
+  margin: 2px; 
   text-decoration: none;
 }
 
@@ -265,7 +272,6 @@ ol {
   font-family: 'Oswald', sans-serif;
   padding: 2px 2px 5px;
   font-weight: 700;
-  hyphens: auto;
 }
 
 .content__video-card-description {
