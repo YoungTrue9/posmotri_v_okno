@@ -32,6 +32,7 @@ ol {
 }
 
 .page {
+  padding: 133px 30px;
   height:100%;  
   display: flex;
   text-align: left;
@@ -46,7 +47,7 @@ ol {
 }
 
 .content {
-  height: 534px;
+  width: 1140px; /* по скольку пока что у нас нету адаптивности,задал для того что бы ошибка стояла на своем месте */
   justify-content: center;
   display: flex;
   margin: auto;
@@ -67,7 +68,7 @@ ol {
   display: flex;
   align-items: center;
   color: #fff;
-  gap: 40px;
+  gap: 41px;
 }
 
 .result__video {
@@ -166,6 +167,8 @@ ol {
 }
 
 .button {
+  width: 194px;
+  height: 34px;
   font-family: 'Fira Sans Condensed', sans-serif;
   border: 1px solid currentColor;
   color: #FFF;
@@ -305,5 +308,35 @@ ol {
     block-size: 1px;
     clip-path: inset(50%);
     white-space: nowrap;
-  }
+}
   
+.error__title{
+    color: #FFF;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 33px */
+    text-transform: uppercase;
+}
+/* 
+.error-template{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    gap: 30px;
+
+      padding: 133px 30px;
+    height:100%;  
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin: auto;
+    color: #fff;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 18px;
+    background-color: #1b1919;
+    inline-size: 100%;
+    block-size: 100%;
+} */
