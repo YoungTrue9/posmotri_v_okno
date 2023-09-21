@@ -63,7 +63,7 @@ ol {
 
 .result__video-container {
   position: relative;
-  inline-size: 711px; /* ширина в figma */
+  inline-size: 711px;  
   margin: 0 0 0px;
 }
 
