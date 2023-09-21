@@ -73,6 +73,7 @@ ol {
   color: #fff;
   gap: 41px;
   margin-top: 10px;
+  padding-bottom: 2px; /* задал это свойство что бы точно встало как на фигме */
 }
 
 .result__video {
