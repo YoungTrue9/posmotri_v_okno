@@ -51,7 +51,7 @@ ol {
 
 .content {
   width: 1140px; /* по скольку пока что у нас нету адаптивности,задал для того что бы ошибка стояла на своем местe*/
-  justify-content: center;
+  justify-content: space-between;
   display: flex;
   margin: auto;
   gap: 30px;
@@ -295,7 +295,8 @@ ol {
   object-position: center;
   inline-size: 194px;
   block-size: 103px;
-  object-fit: cover; /* добавил для безопасности,без него тоже работает :/ */
+  object-fit: cover;
+  min-inline-size: 194px;
 }
 
 .content__video-card-description-container{
